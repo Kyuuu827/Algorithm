@@ -17,7 +17,6 @@ class Queue:
             return "Queue is Empty"
         else:
             dequeued = self.queue[0]
-            # 꺼낸 뒤 나머지 재정비
             self.queue = self.queue[1:]
             return dequeued
 
